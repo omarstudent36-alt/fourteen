@@ -1,0 +1,99 @@
+.penfits{
+    padding: 50px;
+}
+
+.penfits .container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px 200px;
+    gap: 120px;
+}
+
+.penfits .container img{
+    height: 495px;
+}
+
+.penfits .container .content{
+    width: 40%;
+}
+
+
+.penfits .container .content h2{
+    font-size: 48px;
+    font-weight: 600;
+    line-height: 52px;
+}
+
+.penfits .container .content p{
+    font-size: 18px;
+    line-height: 32.4px;
+}
+
+.penfits .container .content a{
+    background-color: rgb(251, 133, 22);
+    padding: 12px 34px;
+    border-radius: 7px;
+    color: white;
+    font-size: 17px;
+    font-weight: 500;
+    text-decoration: none;
+    text-align: center;
+}
+
+.servercontainer{
+    display: flex;
+    gap: 30px;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+
+
+.servers h2{
+    text-align: center;
+  
+}
+.servers p{
+    text-align: center;
+    
+}
+.servercontainer{
+    padding: 80px;
+
+}
+
+
+.servercontainer .server img{
+    width: 200px;
+}
+.servercontainer .server{
+    width: calc((100% - 60px) / 3);
+}
+
+
+
+@media (max-width:991px) {
+    .penfits .container .content{
+        width: 100%;
+    }
+
+    .servercontainer .server{
+        width: calc((100% - 60px) / 2);
+    }
+}
+
+
+@media (max-width:767px) {
+        .servercontainer .server{
+        width:100%;
+    }
+
+.penfits .container{
+    padding: 140px;
+}
+
+     .penfits .container .content{
+        width: 100%;
+     }
+}

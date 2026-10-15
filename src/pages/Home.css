@@ -1,0 +1,15 @@
+section .container{
+    display: flex;
+    padding: 20px 100px;
+   justify-content: center;
+    flex-wrap: wrap;
+    gap: 30px;
+}
+
+
+section .special{
+    text-align: center;
+    font-size: 48px;
+    line-height: 52.8px;
+    
+}

@@ -1,0 +1,138 @@
+main{
+   background: linear-gradient(to right, #4248bd, #2b6cd4);
+    
+}
+
+main .container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 60px 140px;
+  gap: 50px;
+  height: 100vh;
+}
+
+
+
+main .container .content .limtedtime{
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+main .container .content .limtedtime p{
+    font-size: 20px;
+    color: rgb(255, 255, 255);
+    font-weight: 600;
+    line-height: 24px;
+}
+
+main .container .content .limtedtime span{
+    color:rgb(251, 133, 22);
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 24px;
+}
+
+
+
+main .container .content h1{
+    font-size: 65px;
+    margin-top: -5px;
+    line-height: 71.5px;
+    font-weight: 600;
+    color: rgb(255, 255, 255);;
+}
+main .container .domainimg img{
+    height: 574px;
+}
+main .container .content .special{
+    display: flex;
+  gap: 50px;
+   align-items: center;
+  
+}
+
+main .container .content .special a{
+    background: rgb(251, 133, 22);
+    border-radius: 7px;
+    padding: 12px 35px;
+    text-decoration: none;
+    color: white;
+}
+
+
+main .container .content .special p{
+    font-size: 18px;
+    color: white;
+    font-weight: 500;
+    line-height: 30px;
+}
+main .container .content .special span{
+    color: rgb(251, 133, 22);
+    font-weight: 700;
+    font-size: 18px;
+    margin-bottom: -60px;
+    
+}
+
+@media (max-width:991px) {
+    main .container .content .limtedtime {
+        padding: 40px;
+        width: 100%;
+    }
+
+      main .container{
+        flex-direction: column;
+        padding: 120px;
+      }
+
+    main .container .content  {
+      
+        width: 100%;
+    }
+    main .container .content .special{
+        gap: 200px;
+    }
+}
+
+@media (max-width:767px) {
+     
+     main .container .content h1{
+        font-size: 36px;
+     }
+     main .container .domainimg img{
+        width: 500px;
+     }
+
+       main .container{
+        padding-top: 100px;
+        padding-bottom: 150px;
+        flex-direction: column;
+    
+        gap: 50px;
+       }
+         main .container .content .special{
+            flex-direction: column;
+         }
+
+          main .container .content {
+            width: 100%;
+           
+         
+          }
+main .container .content .limtedtime{
+    gap: 1px;
+    padding: 0px;
+}
+
+
+          main .container .content .special{
+            justify-content: flex-start;
+            align-items: flex-start;
+            gap: 10px;
+          }
+
+
+      
+}
